@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrimeEstate Panama City FL | Coastal Real Estate Experts</title>
+  <meta name="description" content="Panama City FL real estate experts helping you buy, sell, and invest in homes, condos, and waterfront properties.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">PrimeEstate PC</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#listings">Listings</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Panama City, Florida Real Estate</h1>
+  <p>Helping buyers and sellers succeed along Florida’s Emerald Coast.</p>
+  <button onclick="scrollToListings()">View Local Listings</button>
+</section>
+
+<section id="listings" class="listings">
+  <h2>Featured Panama City Properties</h2>
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Panama City Beach Condo">
+      <h3>$425,000</h3>
+      <p>2 Bed • 2 Bath • Panama City Beach Condo</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994" alt="Family Home">
+      <h3>$365,000</h3>
+      <p>4 Bed • 3 Bath • Near Tyndall AFB</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c" alt="Waterfront Home">
+      <h3>$875,000</h3>
+      <p>Waterfront Home • Bay County</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>Your Local Panama City Experts</h2>
+  <p>
+    PrimeEstate Panama City specializes in residential homes, beach condos,
+    vacation rentals, and investment properties throughout Panama City,
+    Panama City Beach, and Bay County. We guide military families, retirees,
+    investors, and first-time buyers every step of the way.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Get Local Market Help</h2>
+  <form onsubmit="handleSubmit(event)">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Are you buying or selling in Panama City?" required></textarea>
+    <button type="submit">Request a Call</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 PrimeEstate Panama City, FL • Serving Bay County</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
